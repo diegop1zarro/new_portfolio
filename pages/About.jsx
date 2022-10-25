@@ -1,7 +1,6 @@
 import React from 'react'
 import {about} from '../components/data/data.js'
 import styles from '../styles/About.module.css'
-import TypeWriter from 'TypeWriter-effect'
 import Image from 'next/image'
 import Heading from '../components/Layout/Heading.jsx'
 
