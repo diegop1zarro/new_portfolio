@@ -1,0 +1,57 @@
+.container_flexsb{
+    max-width:80%;
+    max-width:auto;
+    display:flex;
+    justify-content: space-between; 
+    margin:0 auto;
+}
+.logo{
+    display: flex;
+    align-items:center;
+    justify-content: left;
+}
+/* .header{
+    margin: 0 auto;
+    background-color:blueviolet;
+    height: 10vh;
+    line-height: 10vh;
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.header a{
+    margin-left:40px;
+} */
+
+.button{
+    cursor: pointer;
+    color: white;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .header .nav {
+      display: none;
+    }
+    .header a {
+      width: 100%;
+      display: block;
+      color: var(--white);
+    }
+    .button {
+        display: block;
+        font-size: 25px;
+        background: none;
+    }
+    .hideMenu{
+        display: block;
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        width: 100%;
+        background-color: var(--headingColor);
+    }
+  }
