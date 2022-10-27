@@ -1,4 +1,15 @@
 import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube } from "@mui/icons-material"
+import postgresqlIcon from '@iconify-icons/logos/postgresql';
+import css3 from '@iconify-icons/logos/css-3';
+import nodejsIcon from '@iconify-icons/logos/nodejs-icon';
+import javascriptIcon from '@iconify-icons/logos/javascript';
+import html5 from '@iconify-icons/logos/html-5';
+import bootstrapIcon from '@iconify-icons/logos/bootstrap';
+import reactIcon from '@iconify-icons/logos/react';
+import reduxIcon from '@iconify-icons/logos/redux';
+import sequelizeIcon from '@iconify-icons/logos/sequelize';
+import expressIcon from '@iconify-icons/logos/express';
+import sassIcon from '@iconify-icons/logos/sass';
 
 export const navlink = [
   {
@@ -80,100 +91,81 @@ export const services = [
     desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
   },
 ]
-export const project = [
-  {
-    id: 1,
-    icon: <CloudOutlined />,
-    num: "89",
-    title: "HAPPY CLIENTS",
-  },
-  {
-    id: 2,
-    icon: <FavoriteBorder />,
-    num: "231",
-    title: "PROJECTS COMPLEATED",
-  },
-  {
-    id: 3,
-    icon: <Public />,
-    num: "108",
-    title: "FILES DOWNLOADED",
-  },
-  {
-    id: 4,
-    icon: <PersonOutlined />,
-    num: "1446",
-    title: "LIENS OF CODE",
-  },
-]
+
 export const skills = [
   {
     id: 1,
-    cover: "/img/projects/port1.jpg",
-    name: "Brand",
-    category: "marketing",
-    title: "Brex Logo",
+    cover: css3,
+    name: "Css",
+    category: "Front-End",
+    title: "Css 3",
   },
   {
     id: 2,
-    cover: "/img/projects/port2.jpg",
-    name: "Brand",
-    category: "design",
-    title: "Brex Logo",
+    cover: nodejsIcon,
+    name: "Node JS",
+    category: "General",
+    title: "Node JS",
   },
   {
     id: 3,
-    cover: "/img/projects/port3.jpg",
-    name: "Brand",
-    category: "development",
+    cover: javascriptIcon,
+    name: "Javascript",
+    category: "General",
     title: "Brex Logo",
   },
   {
     id: 4,
-    cover: "/img/projects/port4.jpg",
-    name: "Brand",
-    category: "marketing",
-    title: "Brex Logo",
+    cover: html5,
+    name: "HTML 5",
+    category: "Front-End",
+    title: "HTML 5",
   },
   {
     id: 5,
-    cover: "/img/projects/port5.jpg",
-    name: "Brand",
-    category: "design",
-    title: "Brex Logo",
+    cover: bootstrapIcon,
+    name: "Bootstrap",
+    category: "Front-End",
+    title: "Bootstrap",
   },
   {
     id: 6,
-    cover: "/img/projects/port6.jpg",
-    name: "Brand",
-    category: "development",
-    title: "Brex Logo",
+    cover: reactIcon,
+    name: "React",
+    category: "Front-End",
+    title: "React",
+  },
+  {
+    id: 7,
+    cover: reduxIcon,
+    name: "Redux",
+    category: "Front-End",
+    title: "Redux",
+  },
+  {
+    id: 8,
+    cover: sequelizeIcon,
+    name: "Sequelize",
+    category: "Back-End",
+    title: "Sequelize",
+  },
+  {
+    id: 9,
+    cover: expressIcon,
+    name: "Express",
+    category: "Back-End",
+    title: "Express",
+  },
+  {
+    id: 10,
+    cover: sassIcon,
+    name: "Sass",
+    category: "Front-End",
+    title: "Sass",
   },
 ]
-export const testimonials = [
-  {
-    id: 1,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
-    image: "./images/testimonials/team-1.png",
-    name: "Alamin Musa",
-    post: "Front End Developer",
-  },
-  {
-    id: 2,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
-    image: "./images/testimonials/team-2.png",
-    name: "Alex Ander",
-    post: "Back End Developer",
-  },
-  {
-    id: 3,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
-    image: "./images/testimonials/team-3.png",
-    name: "GorkCoder",
-    post: "React Developer",
-  },
-]
-export const blog = [
+
+export const projects = [
   {
     id: 1,
     title: "Master These Awesome",

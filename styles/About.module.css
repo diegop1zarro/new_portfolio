@@ -27,7 +27,19 @@
     width:65%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width:500px) {
+    .aboutContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+     .right{
+        width: 100%;
+    }
+   
+}
+
+/* @media screen and (max-width: 768px) {
     .aboutContainer{
         flex-direction: column;
         justify-content: center;
@@ -40,4 +52,4 @@
         width: 100%;
         margin-left:50%;
     }
-}
+} */
