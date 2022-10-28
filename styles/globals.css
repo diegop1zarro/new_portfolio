@@ -21,7 +21,7 @@ article {
 :root {
   --primaryBackground: #212222;
   --secondaryBackground: #2f3030;
-  --primaryColor: #0dc0e0;
+  --primaryColor: #23f8ed;
   --greyDark: #7d8792;
   --headingColor: #2d2e2e;
   --white: #fff;
@@ -86,7 +86,7 @@ footer{
   padding: 70px;
   margin-top: 50px;
 }
-footer i {
+footer a {
   margin: 5px;
   color: var(--primaryColor);
   justify-content: space-between;
@@ -101,5 +101,11 @@ footer i {
     background-color: var(--headingColor);
     color: var(--white);
     font-family: "Poppins", sans-serif;
+  }
+}
+
+@media screen and (max-width:500px) {
+  header a {
+    margin-left:10px;
   }
 }

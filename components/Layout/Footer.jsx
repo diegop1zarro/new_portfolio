@@ -5,13 +5,13 @@ export default function Footer() {
     <footer>
         {
             social.map((val,i)=>(
-                    <i key={i}> 
+                    <a href={val.link} target="_blank" key={i}> 
                         {val.icon}
-                    </i>
+                    </a>
                 
             ))
         }
-        <p>ALL Right Rescved 2022</p>
+        <p>diegop1zarro 2022</p>
     </footer>
   )
 }

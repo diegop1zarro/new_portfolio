@@ -1,4 +1,4 @@
-import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube } from "@mui/icons-material"
+import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,AddLocationAltOutlined, PhoneIphone, EmailOutlined,GitHub, Email , LinkedIn , WhatsApp} from "@mui/icons-material"
 import postgresqlIcon from '@iconify-icons/logos/postgresql';
 import css3 from '@iconify-icons/logos/css-3';
 import nodejsIcon from '@iconify-icons/logos/nodejs-icon';
@@ -43,13 +43,13 @@ export const home = [
     name: "DIEGO PIZARRO",
     post: "DEVELOPER WEB",
     design: "FULL STACK",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    desc: "Welcome to my portfolio, I am an enthusiastic developer, eager to continue learning and improving day by day. Do not hesitate to contact me",
   },
 ]
 export const about = [
   {
-    desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
-    desc1: "magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor si voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
+    desc: "It's time to tell a little about myself, in February 2022 I took a programming course, an intensive bootcamp for I am Henry, in which I spent more than 900 hours of coding, graduating as a full stack in July of that same year",
+    desc1: "I am currently looking for a job, I really want to be able to work on what I am passionate about, improve myself every day, learn new technologies and perfect myself in the ones I already know.",
     cover: "/img/man.png",
   },
 ]
@@ -112,7 +112,7 @@ export const skills = [
     cover: javascriptIcon,
     name: "Javascript",
     category: "General",
-    title: "Brex Logo",
+    title: "Javascript",
   },
   {
     id: 4,
@@ -163,62 +163,73 @@ export const skills = [
     category: "Front-End",
     title: "Sass",
   },
+  {
+    id: 11,
+    cover: postgresqlIcon,
+    name: "postgresSql",
+    category: "Back-End",
+    title: "PostgresSql",
+  },
 ]
 
 export const projects = [
   {
     id: 1,
-    title: "Master These Awesome",
-    date: "Jun 27, 2022",
-    author: "Dorian Gray",
-    desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
+    title: "Videogames",
+    date: "June, 2022",
+    author: "Diego Pizarro",
+    desc: "'SPA' App that includes: searches, filters, order and creation, with additions to eliminate a creation of mine, for the Front-end I used React, Redux, HTML and pure CSS, the Back-end was developed in Node.js with Express. Database in PostgreSQL and Sequelize.",
     cover: "/img/blog/b1.png",
   },
   {
     id: 2,
-    title: "Best Design Items to Appeal",
-    date: "Jun 27, 2022",
-    author: "Dorian Gray",
-    desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
+    title: "Dogs",
+    date: "June, 2022",
+    author: "Diego Pizarro",
+    desc: "'SPA' App that includes: searches, filters, order and creation, with additions to eliminate a creation of mine, for the Front-end I used React, Redux, HTML and pure CSS, the Back-end was developed in Node.js with Express. Database in PostgreSQL and Sequelize.",
     cover: "/img/blog/b2.png",
   },
   {
     id: 3,
-    title: "The 20 Best Lightroom Presets",
-    date: "Jun 27, 2022",
-    author: "Dorian Gray",
-    desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
+    title: "Henry Shoes",
+    date: "July, 2022",
+    author: "Diego Pizarro",
+    desc: "This project was made for a final presentation of Henry's bootcamp, it consists of an E-commerce for sneakers, which allows us to log in, add products to our cart, see the status of our purchase, etc. It also has an Admin panel to add products, categories, brands, change the status of purchases, etc.",
     cover: "/img/blog/b3.png",
   },
 ]
 export const contact = [
   {
     icon: <AddLocationAltOutlined />,
-    text1: "2651 Main Street, Suit 124",
-    text2: "Seattle, WA, 98101",
+    text1: "Córdoba, Argentina",
+    // text2: "",
   },
   {
     icon: <PhoneIphone />,
-    text1: "0123456789",
-    text2: "0345627891",
+    text1: "3516137592",
+    // text2: "0345627891",
   },
   {
     icon: <EmailOutlined />,
-    text1: "hello@thetheme.io",
-    text2: "inf0@brex-theme.io",
+    text1: "diego.cab.1016@gmail.com",
+    // text2: "inf0@brex-theme.io",
   },
 ]
 export const social = [
   {
-    icon: <Facebook />,
+    link:'https://api.whatsapp.com/send/?phone=%2B543516137592&text&type=phone_number&app_absent=0',
+    icon: <WhatsApp/>,
   },
   {
-    icon: <Twitter />,
+    link:'https://github.com/diegop1zarro',
+    icon: <GitHub/>,
   },
   {
-    icon: <Instagram />,
+    link:'https://www.linkedin.com/in/diegopizarro10/',
+    icon: <LinkedIn />,
   },
   {
-    icon: <YouTube />,
+    link:'mailto:diego.cab.1016@gmail.com?Subject=Aquí%20el%20asunto%20del%20mail',
+    icon: <Email/>,
   },
 ]

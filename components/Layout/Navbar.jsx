@@ -11,7 +11,7 @@ export default function Navbar() {
     <header className={styles.header}>
       <div className={styles.container_flexsb}> 
         <div className={styles.logo}>
-           <Image src="/img/logo.png" alt="" width="30" height="30"/>
+           <Image src="/img/logo.png" alt="" objectFit="cover" width="200" height="50"/>
         </div>
         <div className={responsive? styles.hideMenu : styles.nav}>
           {

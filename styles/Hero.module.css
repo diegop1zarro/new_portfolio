@@ -3,8 +3,9 @@
     border: 2px solid var(--primaryColor);
 }
 .primaryBtn:hover{
-    background-color: var(--primaryColor);
-    border: 2px solid white;
+    background-color: var(--greyDark);
+    border: 2px solid var(--primaryColor);
+    color: black;
 }
 .hero{
     position:relative;

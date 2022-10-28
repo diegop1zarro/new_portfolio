@@ -28,7 +28,7 @@ const [enviado , setEnviado] = useState(false)
           {({ errors}) => (
             <Form ref={form} className={styles.right}>
               <div className={styles.flex}>
-             <label>Nombre :</label>
+             <label>Name :</label>
              <Field type="text" name="user_name" placeholder="coloque su nombre"/>
              <ErrorMessage
              name="user_name"
@@ -43,7 +43,7 @@ const [enviado , setEnviado] = useState(false)
              )}/> 
              </div>
              <div className={styles.form_label}>
-             <label>Mensaje :</label>
+             <label>Message :</label>
              <Field  type="text" as="textarea" name="message"/>
              <ErrorMessage 
              name="message"
