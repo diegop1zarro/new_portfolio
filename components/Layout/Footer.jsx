@@ -5,7 +5,7 @@ export default function Footer() {
     <footer>
         {
             social.map((val,i)=>(
-                    <a href={val.link} target="_blank" key={i}> 
+                    <a href={val.link} target="_blank" key={i} rel="noopener noreferrer"> 
                         {val.icon}
                     </a>
                 
