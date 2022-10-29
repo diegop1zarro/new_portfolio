@@ -20,8 +20,10 @@ export default function Hero() {
                         </h1>
                         <h2 data-aos='fade-left'>{val.post}, {val.design}</h2>
                         <p>{val.desc}</p>
+                        <div className={styles.container_a}>
                         <a href='/files/CV_ingles.pdf' target='_blank' rel="noopener noreferrer" className={styles.primaryBtn}>English CV</a>
                         <a href='/files/CV.pdf' target='_blank' rel="noopener noreferrer" className={styles.primaryBtn}>Spanish CV</a>               
+                        </div>     
                      </div>
                 ))
             }
