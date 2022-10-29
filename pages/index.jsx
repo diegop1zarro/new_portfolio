@@ -18,9 +18,9 @@ export default function Home() {
       <div className={styles.container}>
          <About/>
       </div>
-      <div className={styles.container}>
+      {/* <div className={styles.container}>
          <Services/>
-      </div>
+      </div> */}
       <div className={styles.container}>
          <Skills/>
       </div>

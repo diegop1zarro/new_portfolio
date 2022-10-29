@@ -1,5 +1,13 @@
 .primaryBtn{
+    outline: none;
     background: none;
+    font-size: 17px;
+    color: var(--white);
+    padding: 15px 50px;
+    border-radius: 50px;
+    /* margin-top: 20px; */
+    margin: 5px;
+    cursor: pointer;
     border: 2px solid var(--primaryColor);
 }
 .primaryBtn:hover{
@@ -24,7 +32,12 @@ color: var(--primaryColor);
     content: "";
     position: absolute;
     top: 0;
-    background-image: url("../public/img/home-bg.png") ;
+    background-image: url("../public/city.jpg") ;
+    -webkit-filter: blur(8px);
+   -moz-filter: blur(8px);
+   -o-filter: blur(8px);
+   -ms-filter: blur(8px);
+   filter: blur(9px);
     background-size: cover;
     background-attachment: fixed;
     z-index: -1;

@@ -13,7 +13,7 @@ export default function Projects() {
             {projects.map((val , i)=>(
                 <div className={styles.box} key={i} data-aos='flip-left'>
                     <div className={styles.img}>
-                        <Image src={val.cover} alt="" width='400px' height='300px' objectFit='content' data-aos='fade-down' /> 
+                        <Image src={val.cover} alt="" width='400px' height='300px' objectFit='cover' data-aos='fade-down' /> 
                     </div>
                     <div className={styles.text}>
                         <h3 data-aos='fade-right'>{val.title}</h3>

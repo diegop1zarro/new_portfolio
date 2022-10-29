@@ -20,10 +20,10 @@ export const navlink = [
     url: "/About",
     text: "About",
   },
-  {
-    url: "/Services",
-    text: "Services",
-  },
+  // {
+  //   url: "/Services",
+  //   text: "Services",
+  // },
   {
     url: "/Skills",
     text: "Skills",
@@ -50,7 +50,7 @@ export const about = [
   {
     desc: "It's time to tell a little about myself, in February 2022 I took a programming course, an intensive bootcamp for I am Henry, in which I spent more than 900 hours of coding, graduating as a full stack in July of that same year",
     desc1: "I am currently looking for a job, I really want to be able to work on what I am passionate about, improve myself every day, learn new technologies and perfect myself in the ones I already know.",
-    cover: "/img/man.png",
+    cover: "/img/man.jpg",
   },
 ]
 export const services = [
@@ -104,7 +104,7 @@ export const skills = [
     id: 2,
     cover: nodejsIcon,
     name: "Node JS",
-    category: "General",
+    category: "Back-End",
     title: "Node JS",
   },
   {
@@ -179,7 +179,7 @@ export const projects = [
     date: "June, 2022",
     author: "Diego Pizarro",
     desc: "'SPA' App that includes: searches, filters, order and creation, with additions to eliminate a creation of mine, for the Front-end I used React, Redux, HTML and pure CSS, the Back-end was developed in Node.js with Express. Database in PostgreSQL and Sequelize.",
-    cover: "/img/blog/b1.png",
+    cover: "/img/project/videogame.png",
   },
   {
     id: 2,
@@ -187,7 +187,7 @@ export const projects = [
     date: "June, 2022",
     author: "Diego Pizarro",
     desc: "'SPA' App that includes: searches, filters, order and creation, with additions to eliminate a creation of mine, for the Front-end I used React, Redux, HTML and pure CSS, the Back-end was developed in Node.js with Express. Database in PostgreSQL and Sequelize.",
-    cover: "/img/blog/b2.png",
+    cover: "/img/project/dogs.png",
   },
   {
     id: 3,
@@ -195,7 +195,7 @@ export const projects = [
     date: "July, 2022",
     author: "Diego Pizarro",
     desc: "This project was made for a final presentation of Henry's bootcamp, it consists of an E-commerce for sneakers, which allows us to log in, add products to our cart, see the status of our purchase, etc. It also has an Admin panel to add products, categories, brands, change the status of purchases, etc.",
-    cover: "/img/blog/b3.png",
+    cover: "/img/project/henryshoes.png",
   },
 ]
 export const contact = [
