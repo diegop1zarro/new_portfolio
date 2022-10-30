@@ -87,7 +87,7 @@
     .catButton{
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: stretch;
         margin: 20px 0;
     }
     .primaryButton{
@@ -95,7 +95,7 @@
         margin: 2px;
         /* border: none; */
         /* border-bottom: 2px solid var(--primaryColor); */
-        border-radius: 20px;
+        border-radius: 10px;
     }
 }
 
@@ -107,12 +107,12 @@
 .catButton{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     margin: 20px 0;
 }
 .primaryButton{
     padding: 10px;
     margin: 2px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 }

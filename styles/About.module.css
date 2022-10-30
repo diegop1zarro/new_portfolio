@@ -65,5 +65,12 @@
     .container_a{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .primaryBtn{
+        padding: 10px 30px;
+        border-radius: 20px;
     }
 }
