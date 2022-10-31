@@ -9,8 +9,39 @@
     height: auto;
     padding: 20px;
     padding-top: 30px;
+    
 }
-
+.container_a{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0px;
+}
+.primaryBtn{
+    outline: none;
+    background: none;
+    font-size: 17px;
+    color: var(--white);
+    padding: 5px 10px;
+    border-radius: 6px;
+    /* margin-top: 10px; */
+    margin-bottom: 5px;
+    cursor: pointer;
+    /* border: 1px solid var(--primaryColor); */
+    background-color: var(--greyDark);
+    color: var(--primaryColor);
+}
+.primaryBtn:hover{
+    background-color: var(--primaryColor);
+    border: 1px solid var(--black);
+    color: black;
+}
+.primaryBtn:last-child{
+    margin-right: 6px;
+    margin-left: 5px;
+}
 .content_grid3{
     display: grid;
     grid-template-columns: repeat(3 ,1fr);

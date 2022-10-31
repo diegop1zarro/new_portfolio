@@ -29,7 +29,7 @@ const [enviado , setEnviado] = useState(false)
             <Form ref={form} className={styles.right}>
               <div className={styles.flex}>
              <label>Name :</label>
-             <Field type="text" name="user_name" placeholder="coloque su nombre"/>
+             <Field type="text" name="user_name" placeholder="put your name :)"/>
              <ErrorMessage
              name="user_name"
              component={()=>(
@@ -37,7 +37,7 @@ const [enviado , setEnviado] = useState(false)
              )}
              />
               <label>Email :</label>
-              <Field type="email" name="user_email" placeholder="coloque su email" />
+              <Field type="email" name="user_email" placeholder="put your email" />
              <ErrorMessage name="user_email" component={()=>(
              <span  className={styles.error}>{errors.user_email}</span> 
              )}/> 
@@ -52,8 +52,8 @@ const [enviado , setEnviado] = useState(false)
              )}
               />
               </div>
-              <input type="submit" value="enviar" />
-          {enviado === false ? null : <span className={styles.exito}>mensaje enviado con éxito!</span>} 
+              <input type="submit" value="send" />
+          {enviado === false ? null : <span className={styles.exito}>Message sent succesfully!</span>} 
             </Form>
           
           )}

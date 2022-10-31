@@ -180,6 +180,8 @@ export const projects = [
     author: "Diego Pizarro",
     desc: "'SPA' App that includes: searches, filters, order and creation, with additions to eliminate a creation of mine, for the Front-end I used React, Redux, HTML and pure CSS, the Back-end was developed in Node.js with Express. Database in PostgreSQL and Sequelize.",
     cover: "/img/project/videogame.png",
+    page:"https://videogame-app.vercel.app",
+    code:"https://github.com/diegop1zarro/proyect-videogames"
   },
   {
     id: 2,
@@ -188,6 +190,8 @@ export const projects = [
     author: "Diego Pizarro",
     desc: "'SPA' App that includes: searches, filters, order and creation, with additions to eliminate a creation of mine, for the Front-end I used React, Redux, HTML and pure CSS, the Back-end was developed in Node.js with Express. Database in PostgreSQL and Sequelize.",
     cover: "/img/project/dogs.png",
+    page:"https://deploy-dogs.vercel.app",
+    code:"https://github.com/diegop1zarro/proyect-Dogs"
   },
   {
     id: 3,
@@ -196,6 +200,8 @@ export const projects = [
     author: "Diego Pizarro",
     desc: "This project was made for a final presentation of Henry's bootcamp, it consists of an E-commerce for sneakers, which allows us to log in, add products to our cart, see the status of our purchase, etc. It also has an Admin panel to add products, categories, brands, change the status of purchases, etc.",
     cover: "/img/project/henryshoes.png",
+    page:'https://app-henry-shoes.herokuapp.com',
+    code:"https://github.com/alemosmusi/ecommerce"
   },
 ]
 export const contact = [

@@ -22,6 +22,10 @@ export default function Projects() {
                         </label>
                         <p data-aos='fade-up-right'>{val.desc}</p>
                     </div>
+                    <div className={styles.container_a}>
+                        <a href={val.code} target='_blank' rel="noopener noreferrer" className={styles.primaryBtn}>Code</a>
+                        <a href={val.page} target='_blank' rel="noopener noreferrer" className={styles.primaryBtn}>Page</a>
+                        </div>
                 </div>
             ))}
             </div>
