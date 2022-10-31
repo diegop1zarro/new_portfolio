@@ -27,7 +27,13 @@
     outline: none;
     margin: 10px 0;
     border-radius: 5px;
+    cursor: pointer;
   }
+.contact input:hover{
+  background-color: var(--primaryBackground);
+  color: var(--primaryColor);
+  border: 1px solid var(--black);
+}
 .error{
     color: red;
     background-color: var(--primaryBackground);
