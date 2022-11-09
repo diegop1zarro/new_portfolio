@@ -10,6 +10,7 @@ import reduxIcon from '@iconify-icons/logos/redux';
 import sequelizeIcon from '@iconify-icons/logos/sequelize';
 import expressIcon from '@iconify-icons/logos/express';
 import sassIcon from '@iconify-icons/logos/sass';
+import nextIcon from '@iconify-icons/logos/nextjs-icon';
 
 export const navlink = [
   {
@@ -169,6 +170,13 @@ export const skills = [
     name: "postgresSql",
     category: "Back-End",
     title: "PostgresSql",
+  },
+  {
+    id: 12,
+    cover: nextIcon,
+    name: "Next JS",
+    category: "Front-End",
+    title: "Next JS",
   },
 ]
 
